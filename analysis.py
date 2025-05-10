@@ -59,7 +59,7 @@ plt.close()
 
 # 5. Requests per Hour (Mocked example based on description)
 hours = [f'{h}:00' for h in range(24)]
-requests_per_hour = [150]*9 + [300, 350, 400, 450, 500, 600, 550] + [300]*8  # ← كان 7، خليناه 8
+requests_per_hour = [150]*9 + [300, 350, 400, 450, 500, 600, 550] + [300]*8  
 
 plt.figure(figsize=(10, 5))
 plt.plot(hours, requests_per_hour, marker='o')
